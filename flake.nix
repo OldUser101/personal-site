@@ -53,6 +53,7 @@
             tars.packages.${pkgs.stdenv.hostPlatform.system}.default
             pkgs.python314
             pkgs.python314Packages.python-frontmatter
+            pkgs.prettier
           ];
         };
       });

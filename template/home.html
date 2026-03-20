@@ -1,5 +1,10 @@
 {% extends "page.html" %}
 
+{% block head %}
+<title>Nathan Gill</title>
+<script src="/static/tealfm.js"></script>
+{% endblock %}
+
 {% block content %}
 <div style="text-align: center; margin-top: 1em;">
     <img src="/static/avatar.jpg" width="250" height="250" alt="My Profile Picture">
@@ -22,11 +27,15 @@
         </a>
 
         <img class="badge" src="/static/gifs/gnu_linux.gif">
-        <img class="badge" src="/static/gifs/zero_javascript.gif">
 
         <a class="badge" href="https://www.firefox.com">
             <img src="/static/gifs/tested_on_firefox.gif">
         </a>
+    </div>
+
+    <div id="playing-box">
+        <p style="font-weight: bold;">Listening to:</p>
+        <div id="playing-status"></div>
     </div>
 
     <p style="margin-bottom: 0;"><strong>Other Sites</strong></p>
