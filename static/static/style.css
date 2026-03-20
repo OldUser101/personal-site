@@ -167,3 +167,35 @@ hr {
   image-rendering: pixelated;
 }
 
+/* Play Status */
+
+#playing-box {
+  margin: 1em auto;
+  max-width: 90%;
+  text-align: left;
+  padding: 0 1em;
+  border: 1px solid #acadc8;
+}
+
+#playing-status {
+  text-align: center;
+  line-height: 1;
+}
+
+#playing-status-artists {
+  font-style: italic;
+}
+
+#playing-status.not-playing a,
+#playing-status.not-playing a:hover,
+#playing-status.not-playing a:active,
+#playing-status.not-playing a:visited {
+  display: inline-block;
+  padding: 0;
+  background: none;
+  color: #9399b2;
+  cursor: auto;
+  font-style: italic;
+  text-decoration: none;
+}
+
