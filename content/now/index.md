@@ -1,29 +1,18 @@
 ---
 title: Now
-date: 2026-02-14
+date: 2026-03-29
 ---
 
 # Programming
 
-I'm working on several things at the moment. Most namely:
-
-- [nlock](https://github.com/OldUser101/nlock), mainly small bug fixes and
-    optimisations, though I might add some (more) cool visual effects at some
-    point (background blur, animation, ...?).
-
-- [tars](https://github.com/OldUser101/tars), the static site generator that
-    powers the website you are currently viewing. I've got a couple of plugins
-    now, sitemap and RSS generation, but the way some of the code is written
-    kind of annoys me, probably needs a refactor.
+Other than general maintenance of my existing projects, I'm not working on
+a great deal at the moment. Contact me if you have ideas for stuff I should
+look at!
 
 # Other Things
 
-- Taking a look a functional languages again, solving stuff over at
-    [Project Euler](https://projecteuler.net/).
-
 - Writing content for this website (as always).
 
-- Reading [Surface Detail](https://en.wikipedia.org/wiki/Surface_Detail), a book by
-    Iain Banks, like [Excession](https://en.wikipedia.org/wiki/Excession), I can also
-    recommend.
+- Reading [Look to Windward](https://en.wikipedia.org/wiki/Look_to_Windward), a book by
+    Iain Banks. I should probably pull some of this stuff into a separate page.
 
