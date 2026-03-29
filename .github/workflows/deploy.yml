@@ -18,6 +18,10 @@ jobs:
             - name: Install Nix
               uses: cachix/install-nix-action@v26
 
+            - uses: cachix/cachix-action@v17
+              with:
+                  name: olduser101
+
             - name: Build site
               run: nix build
 

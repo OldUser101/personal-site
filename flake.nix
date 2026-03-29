@@ -3,11 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-
-    tars = {
-      url = "github:OldUser101/tars";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    tars.url = "github:OldUser101/tars";
   };
 
   outputs = { self, nixpkgs, tars }:
