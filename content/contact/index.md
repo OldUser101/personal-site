@@ -6,11 +6,11 @@ title: Contact
 
 You can find me in various places on the Internet, here's a list of them:
 
-- E-mail: [nathan@nathanjgill.uk](mailto:nathan@nathanjgill.uk),
+- E-mail: [n@ngill.net](mailto:n@ngill.net),
     [nathan.j.gill@outlook.com](mailto:nathan.j.gill@outlook.com)
-- Website: [nathanjgill.uk](https://nathanjgill.uk), you're already here.
+- Website: [ngill.net](https://ngill.net), you're already here.
 - GitHub: [@OldUser101](https://github.com/OldUser101)
-- Bluesky: [@nathanjgill.uk](https://bsky.app/profile/nathanjgill.uk)
+- Bluesky: [@ngill.net](https://bsky.app/profile/ngill.net)
 - Mastodon: [@olduser101@vmst.io](https://vmst.io/@olduser101)
 - Matrix: @olduser101:matrix.org
 - LinkedIn: [in/nathan-gill-olduser101](https://www.linkedin.com/in/nathan-gill-olduser101),

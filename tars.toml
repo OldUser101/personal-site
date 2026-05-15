@@ -2,7 +2,7 @@
 title = "Nathan Gill"
 author = "Nathan Gill <nathan.j.gill@outlook.com>"
 description = "Nathan Gill's personal website"
-base_url = "https://nathanjgill.uk/"
+base_url = "https://ngill.net/"
 default_template = "page.html"
 
 [build]
@@ -24,7 +24,7 @@ rss_file = "rss.xml"
 content_dir = "content"
 post_dir = "posts"
 title = "Nathan Gill's Blog"
-url = "https://nathanjgill.uk/"
+url = "https://ngill.net/"
 desc = "Nathan Gill's blog posts on various topics"
 
 [[plugin]]
@@ -33,7 +33,7 @@ hook = "post"
 hash = "84ee882497d41e14f33141754b6e612968654fb67d52cc78f4dcbd4336a9f5d7"
 build_dir = "build"
 sitemap = "sitemap.xml"
-url = "https://nathanjgill.uk/"
+url = "https://ngill.net/"
 incl = [ "*.html" ]
 excl = [ "404.html" ]
 

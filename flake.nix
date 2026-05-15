@@ -1,5 +1,5 @@
 {
-  description = "nathanjgill.uk dev shell and build flake";
+  description = "ngill.net dev shell and build flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -14,7 +14,7 @@
     in {
       packages = forAllSystems (pkgs: {
         default = pkgs.stdenv.mkDerivation {
-          pname = "nathanjgill.uk";
+          pname = "personal-site";
           version = "1.0";
 
           src = self;
