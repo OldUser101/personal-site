@@ -44,7 +44,7 @@ I use some *weird* pieces of hardware, or at least some unexpected ones.
     [Rockbox](https://www.rockbox.org).
 
 - A jailbroken Amazon Kindle Paperwhite 3, that
-[I compiled Vim for](https://bsky.app/profile/nathanjgill.uk/post/3m6two7n4v222).
+[I compiled Vim for](https://bsky.app/profile/ngill.net/post/3m6two7n4v222).
 
 - Sony Walkman D-E220 portable CD player, probably one of the best value
     purchases I've ever made, for just £12.
