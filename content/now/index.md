@@ -13,6 +13,6 @@ look at!
 
 - Writing content for this website (as always).
 
-- Reading [Look to Windward](https://en.wikipedia.org/wiki/Look_to_Windward), a book by
-    Iain Banks. I should probably pull some of this stuff into a separate page.
+- Reading [Use of Weapons](https://en.wikipedia.org/wiki/Use_of_Weapons), a book by
+    Iain Banks. I should probably pull my reading into a separate page at some point.
 
