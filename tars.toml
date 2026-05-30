@@ -36,4 +36,3 @@ sitemap = "sitemap.xml"
 url = "https://ngill.net/"
 incl = [ "*.html" ]
 excl = [ "404.html" ]
-

@@ -4,9 +4,6 @@ on:
     push:
         branches:
             - main
-    pull_request:
-        branches:
-            - main
     workflow_dispatch:
 
 jobs:
@@ -23,12 +20,19 @@ jobs:
                   name: olduser101
 
             - name: Build site
-              run: nix build
+              run: |
+                   nix build
+                   mkdir -p build
+                   cp -r result/* build/
+                   chmod +w -R build
+
+            - name: Publish blog posts
+              run: ATPROTO_PWD=${{ secrets.ATPROTO_PWD }} nix run .#publish
 
             - name: Deploy to Cloudflare Pages
               uses: cloudflare/wrangler-action@v3
               with:
                   apiToken: ${{ secrets.CF_API_TOKEN }}
                   accountId: ${{ secrets.CF_ACCOUNT_ID }}
-                  command: pages deploy "result" --project-name=nathanjgill --branch=${{ github.head_ref }} --commit-dirty=true
+                  command: pages deploy "build" --project-name=nathanjgill --branch=${{ github.head_ref }} --commit-dirty=true
                   gitHubToken: ${{ secrets.GITHUB_TOKEN }}

@@ -5,6 +5,7 @@
 {% if meta.summary is not none %}
     <meta name="description" content="{{ meta.summary }}">
 {% endif %}
+{% block standard_site %} {% endblock %}
 {% endblock %}
 
 {% block page %}

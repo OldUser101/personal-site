@@ -1,6 +1,10 @@
 
 {% extends "page.html" %}
 
+{% block standard_site %}
+<link rel="site.standard.publication" href="%STANDARD_SITE_DOCUMENT%"/>
+{% endblock %}
+
 {% block content %}
 <h1>{{ meta.title }}</h1>
 <p><strong>{{ meta.summary }}</strong></p>
