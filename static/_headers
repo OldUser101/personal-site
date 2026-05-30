@@ -1,3 +1,3 @@
-/.well-known/atproto-did
+/.well-known/*
     Content-Type: text/plain
     X-Robots-Tag: none
