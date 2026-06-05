@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+::-moz-selection {
+  background: #cba6f7;
+  color: #1e1e2e;
+}
+
+::selection {
+  background: #cba6f7;
+  color: #1e1e2e;
+}
+
 body {
   font-family: sans-serif;
   font-size: 18px;
@@ -59,18 +69,18 @@ hr {
 #content a,
 #content a:link,
 #content a:visited {
-    text-decoration: underline;
-    color: #cdd6f4;
-    padding-left: 0.5ch;
-    padding-right: 0.5ch;
+  text-decoration: underline;
+  color: #cdd6f4;
+  padding-left: 0.5ch;
+  padding-right: 0.5ch;
 }
 
 #content a:hover,
 #content a:active {
-    text-decoration: none;
-    background: #cdd6f4;
-    color: #1e1e2e;
-    cursor: pointer;
+  text-decoration: none;
+  background: #cdd6f4;
+  color: #1e1e2e;
+  cursor: pointer;
 }
 
 #content img {
@@ -81,8 +91,12 @@ hr {
   margin-bottom: 1em;
 }
 
-#content h1, #content h2, #content h3,
-#content h4, #content h5, #content h6 {
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
   font-weight: 600;
   font-size: 1.2em;
   color: #89b4fa;
@@ -198,4 +212,3 @@ hr {
   font-style: italic;
   text-decoration: none;
 }
-
