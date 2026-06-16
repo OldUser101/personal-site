@@ -11,7 +11,7 @@ You can find me in various places on the Internet, here's a list of them:
 - Website: [ngill.net](https://ngill.net), you're already here.
 - GitHub: [@OldUser101](https://github.com/OldUser101)
 - Bluesky: [@ngill.net](https://bsky.app/profile/ngill.net)
-- Mastodon: [@olduser101@vmst.io](https://vmst.io/@olduser101)
+- Mastodon: [@olduser101@mastodon.social](https://mastodon.social/@olduser101)
 - Matrix: @olduser101:matrix.org
 - LinkedIn: [in/nathan-gill-olduser101](https://www.linkedin.com/in/nathan-gill-olduser101),
     don't bother trying though
