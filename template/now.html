@@ -1,0 +1,6 @@
+{% extends "page.html" %}
+
+{% block content %}
+    {{ content | safe }}
+    <p>Last Updated: <em>{{ meta.date }}</em></p>
+{% endblock %}

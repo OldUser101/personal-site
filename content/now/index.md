@@ -1,18 +1,20 @@
 ---
 title: Now
-date: 2026-03-29
+date: 2026-06-25
+template: now.html
 ---
 
 # Programming
 
-Other than general maintenance of my existing projects, I'm not working on
-a great deal at the moment. Contact me if you have ideas for stuff I should
-look at!
+- Working on parts of Tetra, mainly the init system
+    [lvinit](https://git.ngill.net/cgit/tetra/lvinit.git).
+- General maintenance of other projects as always.
 
 # Other Things
 
 - Writing content for this website (as always).
 
-- Reading [Use of Weapons](https://en.wikipedia.org/wiki/Use_of_Weapons), a book by
-    Iain Banks. I should probably pull my reading into a separate page at some point.
+- (sporadically) reading [Use of Weapons](https://en.wikipedia.org/wiki/Use_of_Weapons),
+    a book by Iain Banks. I should probably pull my reading into a separate page at some
+    point.
 

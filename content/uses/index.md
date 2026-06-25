@@ -9,21 +9,17 @@ I "try" to keep this up-to-date.
 
 ## Software
 
-I'm (naturally) a Linux user, but I'm impartial to BSD as well. I'm currently
-using [Void Linux](https://voidlinux.org), mainly for its stable
-rolling-release nature, but also the simplicity. The Void package repository
-is also quite easy to contribute to, so most software is available, at least
-in my case. In the rare case where I can't find something, I normally resort
-to using [Nix](https://nixos.org/) instead, which works surprisingly well.
+I mainly use Linux-based systems, but occassionally BSD as well. I'm currently
+using [NixOS](https://nixos.org), since I've found it gives me the greatest
+control over my system. I'm also a maintainer of a couple of packages in
+[Nixpkgs](https://github.com/NixOS/nixpkgs).
 
 Other things I use, and highly recommend:
 
-- [Kakoune](https://kakoune.org) for code editing, pairing quite nicely with
-[sidetree](https://github.com/topisani/sidetree)
-
-- [zsh](https://www.zsh.org) as my primary shell
-- [Sway](https://swaywm.org/) window manager
-- [kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator
+- [Kakoune](https://kakoune.org) for code editing, Vim if unavailable
+- [Sway](https://swaywm.org/) window manager, but forked (I'm working
+    on a few features of my own)
+- [alacritty](https://alacritty.org) terminal emulator
 
 ## Hardware
 
@@ -44,7 +40,7 @@ I use some *weird* pieces of hardware, or at least some unexpected ones.
     [Rockbox](https://www.rockbox.org).
 
 - A jailbroken Amazon Kindle Paperwhite 3, that
-[I compiled Vim for](https://bsky.app/profile/ngill.net/post/3m6two7n4v222).
+[I ran Vim on](https://bsky.app/profile/ngill.net/post/3m6two7n4v222).
 
 - Sony Walkman D-E220 portable CD player, probably one of the best value
     purchases I've ever made, for just £12.
