@@ -53,9 +53,9 @@ personal server and you'd like to contribute, e-mail me.
 |[dotfiles](https://git.ngill.net/cgit/dotfiles.git)|✓ (canonical)|✓|✓|
 |[onyx](https://git.ngill.net/cgit/onyx.git)|✓ (canonical)|✓|✓|
 |[nls](https://git.ngill.net/cgit/nls.git)|✓ (canonical)|✓|✓|
-|[personal-site](https://git.ngill.net/cgit/personal-site.git)|✓ (canonical)|✓|✓|
-|[aqasm-sim](https://git.ngill.net/cgit/aqasm-sim.git)|✓ (canonical)|✓|✓|
-|[mastermind](https://git.ngill.net/cgit/mastermind.git)|✓ (canonical)|✓|✓|
+|[personal-site](https://git.ngill.net/cgit/personal-site.git)|✓ (canonical)|✓|✗|
+|[aqasm-sim](https://git.ngill.net/cgit/aqasm-sim.git)|✓ (canonical)|✓|✗|
+|[mastermind](https://git.ngill.net/cgit/mastermind.git)|✓ (canonical)|✓|✗|
 |..others|✓ (canonical)|✗|✗|
 
 There is a [GitHub organisation](https://github.com/tetra-linux) for Tetra
