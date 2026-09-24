@@ -24,18 +24,22 @@ let
           <img src="/static/gifs/badge.gif">
         </a>
 
+        <a class="badge" href="https://aleaf.is-a.dev/" target="_blank" rel="noopener">
+          <img src="https://aleaf.is-a.dev/aleaf-88x31.gif" alt="A leaf" width="88" height="31">
+        </a>
+
         <div id="badges">
-          <a class="badge" href="https://unixcore.sh">
+          <a class="badge" href="https://unixcore.sh" target="_blank" rel="noopener">
             <img src="/static/gifs/unixcore.gif">
           </a>
 
-          <a class="badge" href="https://jj-vcs.dev">
+          <a class="badge" href="https://jj-vcs.dev" target="_blank" rel="noopener">
             <img src="/static/gifs/built_with_jj.gif">
           </a>
 
           <img class="badge" src="/static/gifs/gnu_linux.gif">
 
-          <a class="badge" href="https://www.firefox.com">
+          <a class="badge" href="https://www.firefox.com" target="_blank" rel="noopener">
             <img src="/static/gifs/tested_on_firefox.gif">
           </a>
         </div>
