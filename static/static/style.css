@@ -18,9 +18,13 @@ body {
   line-height: 1.4;
   background: #1e1e2e;
   color: #cdd6f4;
-  margin: 0 auto;
   padding: 1em;
-  max-width: min(100%, 80ch);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr min(100%, 80ch) 1fr;
+}
+body > * {
+  grid-column: 2;
 }
 
 header {
