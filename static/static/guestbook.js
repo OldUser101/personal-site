@@ -59,9 +59,6 @@ function submitMessage() {
           throw err;
         });
       }
-      return resp.json();
-    })
-    .then((res) => {
       setSubmitSuccess();
       clearSubmission();
     })
