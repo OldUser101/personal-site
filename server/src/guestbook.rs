@@ -101,6 +101,7 @@ impl Guestbook {
         }
 
         if flushed > 0 {
+            self.file.flush().await?;
             info!("flushed {} entries", flushed);
         }
 
