@@ -46,20 +46,20 @@ function submitMessage() {
     message: message,
   };
 
-  fetch("https://guestbook.ngill.net/", {
+  fetch("https://guestbook.ngill.net/entries", {
     method: "POST",
     body: JSON.stringify(payload),
     headers: {
       "Content-Type": "application/json",
     },
   })
-    .then((res) => {
-      if (!res.ok) {
-        return res.json().then((json) => {
-          throw json.error;
+    .then((resp) => {
+      if (!resp.ok) {
+        return resp.text().then((err) => {
+          throw err;
         });
       }
-      return res.json();
+      return resp.json();
     })
     .then((res) => {
       setSubmitSuccess();
@@ -129,8 +129,15 @@ function addMessage(msg) {
 }
 
 function updateGuestbook() {
-  fetch("https://guestbook.ngill.net/")
-    .then((res) => res.json())
+  fetch("https://guestbook.ngill.net/entries")
+    .then((resp) => {
+      if (!resp.ok) {
+        return resp.text().then((err) => {
+          throw err;
+        });
+      }
+      return resp.json();
+    })
     .then((data) => {
       clearMessages();
       const msgs = data.reverse(); // we want newest first

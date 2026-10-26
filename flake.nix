@@ -24,32 +24,42 @@
           in
           lib.buildSite site;
 
-        guestbook = pkgs.stdenv.mkDerivation {
+        guestbook = pkgs.rustPlatform.buildRustPackage {
           pname = "guestbook";
-          version = "0.1";
+          version = "0.1.0";
 
           src = ./server;
 
-          installPhase = ''
-            mkdir -p $out
-            cp ./guestbook.php $out/
-          '';
+          cargoLock = {
+            lockFile = ./server/Cargo.lock;
+          };
         };
       });
 
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
-          nativeBuildInputs = [
-            pkgs.prettier
-            pkgs.busybox
+          nativeBuildInputs = with pkgs; [
+            prettier
+            busybox
 
-            pkgs.php
+            python314
+            python3Packages.beautifulsoup4
+            python3Packages.pygments
+            python3Packages.catppuccin
 
-            pkgs.python314
-            pkgs.python3Packages.beautifulsoup4
-            pkgs.python3Packages.pygments
-            pkgs.python3Packages.catppuccin
+            cargo
+            rustc
+            rustfmt
+            rust-analyzer
+            rustPackages.clippy
           ];
+
+          shellHook = ''
+            export NGILL_NET_GUESTBOOK_ADDR="127.0.0.1"
+            export NGILL_NET_GUESTBOOK_PORT="8080"
+            export NGILL_NET_GUESTBOOK_LOG_LEVEL="trace"
+            export NGILL_NET_GUESTBOOK_STORE="/data/ngill"
+          '';
         };
       });
     };
