@@ -6,8 +6,7 @@ use axum::{
     routing::{get, post},
 };
 use tower_governor::{
-    GovernorLayer,
-    governor::{GovernorConfig, GovernorConfigBuilder},
+    GovernorLayer, governor::GovernorConfigBuilder, key_extractor::SmartIpKeyExtractor,
 };
 use tracing::error;
 
@@ -44,8 +43,12 @@ async fn add_entry(
 }
 
 pub fn build_router(gbh: GuestbookHandle) -> Router {
-    let get_conf = GovernorConfig::default();
+    let get_conf = GovernorConfigBuilder::default()
+        .key_extractor(SmartIpKeyExtractor)
+        .finish()
+        .unwrap();
     let post_conf = GovernorConfigBuilder::default()
+        .key_extractor(SmartIpKeyExtractor)
         .per_second(30)
         .burst_size(1)
         .finish()
