@@ -13,16 +13,22 @@ control over my system. I'm also a maintainer of a couple of packages in
 Other things I use, and highly recommend:
 
 - [Kakoune](https://kakoune.org) for code editing, Vim if unavailable
-- [Sway](https://swaywm.org/) window manager, but forked (I'm working
-    on a few features of my own)
+- [Mango](https://github.com/mangowm/mango) window manager. I maintain a fork
+    which adds a couple of private features however.
 - [alacritty](https://alacritty.org) terminal emulator
 
 ## Hardware
 
 I use some *weird* pieces of hardware, or at least some unexpected ones.
 
-- Acer Aspire 3 Spin 14 laptop - the only computer I really use, very much
-    not designed for some of the stuff I do, but it's (relatively) cheap.
+- Main PC - composed of: Intel Core i5-10400 CPU; AMD Radeon RX Vega 56 GPU;
+    16 GB RAM. All purchased for a rather good price.
+
+- Acer Aspire 3 Spin 14 laptop - computer I use when not at home, still
+    surprisingly capable for what I use it for.
+
+- Dell OptiPlex FX160 - sits in the corner of my room, currently running
+    OpenBSD, used occassionally.
 
 - Microsoft IntelliMouse Explorer 3.0 - certainly my favourite mouse, I
     wouldn't really consider using anything else. Shame it was made ~20

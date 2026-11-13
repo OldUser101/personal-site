@@ -21,7 +21,7 @@ let
 
       <div id="badges">
         <a class="badge" href="https://ngill.net">
-          <img src="/static/gifs/badge.gif">
+          <img src="/static/gifs/badge.gif" alt="\033">
         </a>
 
         <a class="badge" href="https://aleaf.is-a.dev/" target="_blank" rel="noopener">
@@ -30,17 +30,17 @@ let
 
         <div id="badges">
           <a class="badge" href="https://unixcore.sh" target="_blank" rel="noopener">
-            <img src="/static/gifs/unixcore.gif">
+            <img src="/static/gifs/unixcore.gif" alt="Unixcore">
           </a>
 
-          <a class="badge" href="https://jj-vcs.dev" target="_blank" rel="noopener">
-            <img src="/static/gifs/built_with_jj.gif">
+          <a class="badge" href="https://git-scm.com" target="_blank" rel="noopener">
+            <img src="/static/gifs/built_with_git.gif" alt="Built with Git">
           </a>
 
-          <img class="badge" src="/static/gifs/gnu_linux.gif">
+          <img class="badge" src="/static/gifs/gnu_linux.gif" alt="Made on GNU/Linux">
 
           <a class="badge" href="https://www.firefox.com" target="_blank" rel="noopener">
-            <img src="/static/gifs/tested_on_firefox.gif">
+            <img src="/static/gifs/tested_on_firefox.gif" alt="Tested on Firefox">
           </a>
         </div>
       </div>

@@ -1,14 +1,14 @@
 # Programming
 
-- Working on parts of Tetra, mainly the init system
-    [lvinit](https://git.ngill.net/cgit/tetra/lvinit.git).
-- General maintenance of other projects as always.
+- [ixic](https://git.ngill.net/ixic.git), an iPod mod based around the ESP32
+    microcontroller.
+- [nclrc](https://git.ngill.net/nclrc.git), an interactive tool for working
+    with LRC (synced lyrics) files.
+- [wl-overlay](https://git.ngill.net/wl-overlay.git), a Wayland desktop overlay.
+    Mainly attempting to improve and stabilise its widget API.
 
 # Other Things
 
-- Writing content for this website (as always).
-
-- (sporadically) reading [Use of Weapons](https://en.wikipedia.org/wiki/Use_of_Weapons),
-    a book by Iain Banks. I should probably pull my reading into a separate page at some
-    point.
-
+- Attempting to find work somewhere, still got quite a few months before I
+    (hopefully) end up in university, need something else to fill that time
+    at the very least.

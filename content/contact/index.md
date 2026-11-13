@@ -5,6 +5,7 @@ You can find me in various places on the Internet, here's a list of them:
 - E-mail: [n@ngill.net](mailto:n@ngill.net)
 - Website: [ngill.net](https://ngill.net), you're already here.
 - GitHub: [@OldUser101](https://github.com/OldUser101)
+- Discord: [@olduser101](https://discord.com/users/1335194133614034979)
 - Bluesky: [@ngill.net](https://bsky.app/profile/ngill.net)
 - Signal: olduser101.11
 - Mastodon: [@olduser101@mastodon.social](https://mastodon.social/@olduser101)
@@ -42,5 +43,4 @@ be sent to a mirror or sent to me in another appropriate format.
 
 There is a [GitHub organisation](https://github.com/tetra-linux) for Tetra
 Linux, though it's massively out-of-date. Development is currently on my
-personal server and may move again as the project grows (hopefully).
-
+personal server and may move again if the project grows (hopefully).

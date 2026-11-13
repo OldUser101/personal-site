@@ -20,8 +20,8 @@ few of my own. Here's a couple of those:
 Take a look at my [now page](/now/index.html) for other things I'm currently
 working on/doing.
 
-My favourite programming language is probably Rust, but I quite enjoy writing
-C, C++, and Python too, depending on the situation.
+My favourite programming language is probably C, but I quite enjoy writing
+Rust, C++, and (rarely) Python, when it's useful.
 
 # Software I use
 
