@@ -32,6 +32,10 @@ let
           <img src="https://astro-15.github.io/assets/buttons/astro.png" alt="Astro15" width="88" height="31">
         </a>
 
+        <a class="badge" href="https://deadcoffee.net/" target="_blank" rel="noopener">
+          <img src="https://www.deadcoffee.net/button.gif" width="88" height="31">
+        </a>
+
         <div id="badges">
           <a class="badge" href="https://unixcore.sh" target="_blank" rel="noopener">
             <img src="/static/gifs/unixcore.gif" alt="Unixcore">
