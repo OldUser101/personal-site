@@ -28,6 +28,10 @@ let
           <img src="https://aleaf.is-a.dev/aleaf-88x31.gif" alt="A leaf" width="88" height="31">
         </a>
 
+        <a class="badge" href="https://astro15.uk/" target="_blank" rel="noopener">
+          <img src="https://astro-15.github.io/assets/buttons/astro.png" alt="Astro15" width="88" height="31">
+        </a>
+
         <div id="badges">
           <a class="badge" href="https://unixcore.sh" target="_blank" rel="noopener">
             <img src="/static/gifs/unixcore.gif" alt="Unixcore">
